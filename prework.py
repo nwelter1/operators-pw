@@ -142,7 +142,7 @@ def consec(a_list):
 
 # Another way to get solution using for loop
 b_list = [15, 16,17, 18]
-# Random new note
+# making a change
 for num in b_list[:-1]:
     if num + 1 == b_list[b_list.index(num)+1]:
         print(True)
